@@ -1,8 +1,8 @@
 # Drum Player Kit
 
 - A simple Drum kit
-- nodejs as backened
-- html, css, js as frontend
+- `nodejs` as backened
+- `html` , `css` , `javascript` as frontend
 
 ## Preview
 
