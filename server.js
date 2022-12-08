@@ -25,7 +25,8 @@ var server = http.createServer(function (request, response) {
                                 '.png' : 'image/png',
                                 '.gif' : 'image/gif',
                                 '.css' : 'text/css',
-                                '.js' : 'text/javascript'
+                                '.js' : 'text/javascript',
+                                '.mp3' : 'sound/mp3'
                                 }[ request.url.substr(dotoffset) ];
             response.setHeader('Content-type' , mimetype);
             response.end(data);
